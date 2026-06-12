@@ -125,3 +125,8 @@ app.*.symbols
 # Xcode-related
 **/dgph
 **/xcuserdata/
+
+
+.env
+.env.local
+.env.production

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "596755320834",
+    "project_id": "afterglow-agenda",
+    "storage_bucket": "afterglow-agenda.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596755320834:android:e2e38da2edb3d0e5ccd71b",
+        "android_client_info": {
+          "package_name": "com.example.afterglow_agenda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNGklqtMpb-CB-J8TEDIODFU3gehkL7i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
