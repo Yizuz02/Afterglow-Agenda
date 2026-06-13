@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'home_screen.dart';
+import 'main_navigation_screen.dart';
 import 'features/auth/screens/login_screen.dart';
 
 class AuthGate extends StatelessWidget {
@@ -23,7 +23,7 @@ class AuthGate extends StatelessWidget {
         }
 
         if (snapshot.hasData) {
-          return const HomeScreen();
+          return const MainNavigationScreen();
         }
 
         return const LoginScreen();

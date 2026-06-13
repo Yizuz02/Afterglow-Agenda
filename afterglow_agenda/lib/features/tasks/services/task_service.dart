@@ -8,7 +8,7 @@ class TaskService {
 
     final FirebaseAuth _auth = FirebaseAuth.instance;
 
-    CollectionReference<Map<String, dynamic>> get_taskCollection {
+    CollectionReference<Map<String, dynamic>> get _taskCollection {
 
         final uid = _auth.currentUser!.uid;
 
